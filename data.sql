@@ -5,9 +5,8 @@ PRAGMA foreign_keys = ON;
 
 BEGIN TRANSACTION;
 
--- ------------------------------------------------------------
--- Core reference tables
--- ------------------------------------------------------------
+-- Core-reference tables
+
 
 CREATE TABLE IF NOT EXISTS users (
     user_id          INTEGER PRIMARY KEY,
