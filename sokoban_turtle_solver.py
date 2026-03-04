@@ -10,6 +10,7 @@ Output:
   - If the program remains unsolved: `No solution found`.
 """
 from __future__ import annotations
+
 import argparse
 import sys
 from collections import deque
