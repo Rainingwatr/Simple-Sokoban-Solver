@@ -1,4 +1,4 @@
-# Simple Sokoban Solver (Python 3 + XSB)
+# My Simple Sokoban Solver (Python 3 + XSB)
 
 This repository provides a Python 3 script that:
 
