@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
 """Solve Sokoban levels from XSB input and print a move solution.
+(please note this code is severly inefficient im just lazy to change anything)
 
-Usage examples:
   python3 sokoban_turtle_solver.py level.xsb
   cat level.xsb | python3 sokoban_turtle_solver.py
 
 Output:
   - If solved: a move string using `udlr` for walking and `UDLR` for pushes.
-  - If unsolved: `No solution found`.
+  - If the program remains unsolved: `No solution found`.
 """
 from __future__ import annotations
-
 import argparse
 import sys
 from collections import deque
