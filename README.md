@@ -3,7 +3,7 @@
 This repository provides a Python 3 script that:
 
 - accepts Sokoban levels in **XSB format** (from file or stdin)
-- solves using a push-based BFS search (all credits go towards [https://timallanwheeler.com/blog/](Timallan wheeler))
+- solves using a push-based BFS search (all credits go towards [https://timallanwheeler.com/blog/] (Timallan wheeler))
 - outputs the solution as move strings
 
 ## Usage
